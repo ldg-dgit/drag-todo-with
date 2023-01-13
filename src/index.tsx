@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { darkTheme, lightTheme } from "./theme";
+import { darkTheme } from "./theme";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import { RecoilRoot } from "recoil";
 
@@ -65,7 +65,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     background-color: ${(props) => props.theme.bgColor};
-    color:${(props) => props.theme.textColor};
+    color:black;
     line-height: 1.2;
   }
   a{
