@@ -4,11 +4,10 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   width: 100%;
-  padding: 20px 5px;
-  padding-top: 10px;
+  padding: 10px 5px;
   background-color: ${(props) => props.theme.boardColor};
   border-radius: 5px;
-  min-height: 105px;
+  min-height: 85px;
   display: flex;
   flex-direction: column;
 `;
@@ -16,7 +15,7 @@ const Wrapper = styled.div`
 const Title = styled.h2`
   text-align: center;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 17px;
 `;
 
